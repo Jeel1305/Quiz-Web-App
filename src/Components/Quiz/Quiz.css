@@ -1,0 +1,51 @@
+.container {
+    width: 740px;
+    margin: auto;
+    margin-top: 141px;
+    background-color: white;
+    color: #262626;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 20px 50px;
+    border-radius: 10px
+}
+.container hr {
+    border: none;
+    height: 2px;
+    background: #707070;
+}
+.container ul li {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    padding-left: 30px;
+    border: 1px solid #686868;
+    border-radius: 8px;
+    margin-bottom: 10px ;
+    font-size: 18px;
+    cursor: pointer;
+}
+.container button {
+    margin: auto;
+    width: 200px;
+    height: 30px;
+    background: #553f9a;
+    color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 15px;
+}
+.container .index {
+    margin: auto;
+    font-size: 18px;
+}
+.container .correct {
+    background: #dffff2;
+    border-color: #00d397;
+}
+.container .wrong {
+    background-color: #ffebeb;
+    border-color: #ff4a4a;
+}
